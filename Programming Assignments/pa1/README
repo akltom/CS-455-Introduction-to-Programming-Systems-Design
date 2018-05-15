@@ -1,0 +1,61 @@
+Name: King Lun Au
+USC loginid: kingluna
+CS455 PA1
+Spring 2016
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+King Lun Au
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+In the RandomWalkComponent class, I use the code from the textbook 
+section 2.9.2 (Drawing a component)
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+I took this class last semester, so my codes and formatwould be very
+close to what I submitted last semester. I have already took the 
+professor that some of my work would be similar to the past. 
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+1. The drunkard has many dead ends, it is because after a point first 
+gets generated from the orginal, the second point goes exactly the 
+opposite direction. Then, the other points that get generated later
+go elsewhere direction and never return to the first point position. 
+Therefore, many paths taken by the drunkard have "dead end".
+
+2. When the program gets minimized or maximinzed, the graphics output 
+has changed and re-generated to a different and new one. It is because 
+when we iconify the program, the paintComponent gets called. Hence, 
+the window will get redrawn and generate a new graphics output.
+
+3. One of the possible way is to create a empty text file. Then, when 
+the first graphics output is generated, we copy the output into this 
+file. So whenever we need to print or see the graphics output, we can
+just call this file again. By doing this, the original graphics get 
+stored and we can avoid to lose that part of information. 
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
