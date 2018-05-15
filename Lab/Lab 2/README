@@ -1,0 +1,38 @@
+
+
+//King Lun Au Driver 
+//CS455x
+//Lab Number 30205
+//Partner name:Zhuofu Chen scribe
+
+import java.util.*; // include everything
+import java.util.Calendar; // 1.1
+import java.util.GregorianCalendar; //1.1
+
+public class README {
+
+	public static void main(String[] args) {
+
+//class, name_of the class(whatever u want),new, always the same  name as the cl//ass(constructor)
+	GregorianCalendar Gregcalen= new GregorianCalendar (1995, 0, 20);// 1.2 //call  constructor
+// automicatlly assign fromconstructor of summary
+	System.out.println((Gregcalen.get(Calendar.YEAR))+"/"+(Gregcalen.get(Cal endar.MONTH))+"/"+(Gregcalen.get(Calendar.DAY_OF_MONTH))); // 1.3
+
+	// 1.4: To indicate January, we should use the number 0.
+
+	// 1.5: We will have to use add method: add((Calendar.DAY_OF_MONTH,20)
+
+	Gregcalen.add(Gregcalen.DAY_OF_MONTH, 20);
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
