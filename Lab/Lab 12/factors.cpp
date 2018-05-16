@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+// finds all of n's factors
+// not including 1 and itself
+void factors (int n)
+{
+  int k = 1;
+
+  while (k < n) {
+    if (n % k++ == 0) {
+      cout << k-1 << endl;
+    }
+  }
+  
+}
+
+int main()
+{
+  int n;
+  cout << "Find factors of what number? ";
+  cin >> n;
+  cout << "Factors of n are: " << endl;
+  factors (n);
+  cout << endl;
+}
